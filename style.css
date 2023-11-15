@@ -1,0 +1,58 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZoUj-EcNdMOHahI0lkf8Y-eIGxZgpnveYQzeqaTYMuXsc3LOvOJrdTzJaN4BqwL_2LE&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+.photo {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.card {
+  margin: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 7%;
+}
+.text p {
+  width: 310px;
+  color: rgba(128, 128, 128, 0.719);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+}
+.text h2 {
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.text a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 14px 70px;
+  background-color: rgba(224, 9, 231, 0.726);
+  border-radius: 17px;
+  margin-top: 30px;
+  box-shadow: 2px 2px 30px rgba(224, 9, 231, 0.726);
+}
+a:hover {
+  box-shadow: none;
+  color: rgba(66, 0, 70, 0.432);
+}
+footer {
+  margin-top: -110px;
+  display: flex;
+  justify-content: right;
+  gap: 14px;
+  margin-right: 40px;
+  font-size: 30px;
+  transition: 1s;
+}
+i:hover {
+  box-shadow: 2px 2px 30px rgba(224, 9, 231, 0.726);
+  border-radius: 4000px;
+}

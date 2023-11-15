@@ -1,0 +1,94 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZoUj-EcNdMOHahI0lkf8Y-eIGxZgpnveYQzeqaTYMuXsc3LOvOJrdTzJaN4BqwL_2LE&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.card {
+  margin-top: 4%;
+  margin: auto;
+  display: flex;
+  width: 50%;
+  height: 60%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 70px;
+  gap: 150px;
+  backdrop-filter: blur (20px);
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.boy1 h3 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin-left: 26px;
+}
+input {
+  padding: 14px;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 40px;
+  border-bottom: 2px solid gray;
+  border-top: 0px solid white;
+  border-left: 0px solid white;
+  border-right: 0px solid white;
+  margin: 14px;
+}
+.boy1 button {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 30px;
+  background-color: rgba(224, 9, 231, 0.726);
+  margin-top: 40px;
+  box-shadow: 2px 2px 30px rgba(224, 9, 231, 0.726);
+  margin-left: 50px;
+}
+.boy2 button {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 30px;
+  background-color: rgba(224, 9, 231, 0.726);
+  box-shadow: 2px 2px 30px rgba(224, 9, 231, 0.726);
+  margin-left: 50px;
+}
+i {
+  padding-right: 20px;
+}
+button:hover {
+  box-shadow: none;
+  color: rgba(66, 0, 70, 0.432);
+}
+.boy2 {
+  border-left: 2px solid gray;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: right;
+  gap: 14px;
+  margin-right: 40px;
+  font-size: 30px;
+  transition: 1s;
+}
+i:nth-of-type(3):hover {
+  box-shadow: 2px 2px 30px rgba(224, 9, 231, 0.726);
+  border-radius: 4000px;
+}

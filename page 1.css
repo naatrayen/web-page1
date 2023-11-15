@@ -1,0 +1,123 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZoUj-EcNdMOHahI0lkf8Y-eIGxZgpnveYQzeqaTYMuXsc3LOvOJrdTzJaN4BqwL_2LE&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  backdrop-filter: blur (25px);
+}
+header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+header img {
+  width: 130px;
+}
+header ul li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 16px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-family: 17px;
+}
+main .ph {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+main .text h3 {
+  color: white;
+  font-family: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  text-align: center;
+}
+.text p:nth-of-type(1) {
+  width: 72%;
+  font-size: 21px;
+  text-align: center;
+  text-align: justify;
+  margin-left: 120px;
+  color: white;
+  margin-top: 10px;
+}
+.photo {
+  margin-top: 70px;
+  margin-left: 40px;
+}
+a:hover {
+  box-shadow: 2px 2px 30px rgba(224, 9, 231, 0.726);
+}
+.ph1 {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  gap: -6px;
+}
+.boy1 {
+  width: 24%;
+  height: 57rem;
+  border: 1px solid white;
+}
+.boy2 {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.bb {
+  color: white;
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+}
+.boy1 h3 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  margin-left: 26px;
+}
+.boy1 p {
+  width: 320px;
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-left: 26px;
+}
+.boy1 button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 14px 100px;
+  border-radius: 17px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.bb h6 {
+  color: black;
+  font-size: 30px;
+  font-family: serif;
+  font-weight: bold;
+  margin-left: 60px;
+}
+.bb p {
+  color: black;
+  font-size: 25px;
+  width: 200px;
+  text-align: center;
+  margin-left: 50px;
+  text-align: justify;
+  border: 1px solid white;
+}
